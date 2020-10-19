@@ -1,0 +1,103 @@
+@media only screen and (min-width: 769px){
+    .service-container{
+        padding-top: 44px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .selected-service{
+        margin-bottom: 44px;
+        width: 41.66%;
+        height: 254px;
+        background: #FFFFFF;
+        border-radius: 20px;
+    }
+    .service-description h3{
+        padding-left: 28px;
+        margin-top: 21px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 16px;
+    }
+    .service-description p{
+        padding-left: 28px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: rgba(0, 0, 0, 0.7);
+    }
+    .selected-service-title{
+        margin-top: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .service-icon{
+        width: 74px;
+        margin-left: 28px;
+    }
+    .work-status{
+        margin-right: 28px;
+        height: fit-content;
+        width: fit-content;
+        background: #FFE3E3;
+        border-radius: 5px;
+    }
+    .work-status p{
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 10.5px 24.5px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .selected-service{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 44px;
+        width: 90%;
+        min-height: 254px;
+        background: #FFFFFF;
+        border-radius: 20px;
+    }
+    .service-description h3{
+        padding-left: 28px;
+        margin-top: 21px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 16px;
+    }
+    .service-description p{
+        padding-left: 28px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: rgba(0, 0, 0, 0.7);
+    }
+    .selected-service-title{
+        /* margin-top: 50px; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .service-icon{
+        width: 65px;
+        margin-left: 28px;
+    }
+    .work-status{
+        margin-right: 28px;
+        height: fit-content;
+        width: fit-content;
+        background: #FFE3E3;
+        border-radius: 5px;
+    }
+    .work-status p{
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 10.5px 24.5px;
+    }
+}

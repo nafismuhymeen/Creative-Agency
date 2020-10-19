@@ -1,0 +1,15 @@
+
+    .table-div{
+        overflow-x: auto;
+        width: 90%;
+        margin-top: 40px;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .table{
+        width: 100%;
+    }
+    .table th{
+        background: gray;
+    }

@@ -1,0 +1,41 @@
+.logo:hover{
+    cursor: pointer;
+}
+.login{
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.login h1{
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 24px; */
+    font-size:24px;
+    line-height: 29px;
+}
+.login__h1{
+    max-width: fit-content;
+    margin-top: 154px;
+}
+.google__btn{
+    /* width: 457px; */
+    height: 51px;
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 57px;
+    margin-top: 32px;
+
+}
+.google__btn p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 14px;
+}
+.google__btn:hover{
+    border: 1.5px solid #0400ff;
+    cursor: pointer;
+}
